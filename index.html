@@ -6,7 +6,7 @@
   </head>
   <body>
     <header>
-        <img src="images/logo.png" alt="logo version" width= "10%"> 
+      <img src="images/logo.png" alt="logo version" width= "10%"> 
       <ul>
         <li>ABOUT</li>
         <li>SKILLS</li>
@@ -15,66 +15,75 @@
       </ul>
     </header>
     <section class="heroImg">
-      <div class="content">
-        <img src= "images/alexis.jpg" alt= "alexis profile pic">
-        <h1>Alexis Russell</h1>
-        <p> I'm a UX/UI Designer based in Houston, TX
-            As a current marketing and communications professional, 
-            I have 7 years of experience in branding and implementing design guidelines. 
-            I enjoy creating solutions that make a user’s life easier. 
-            If you want to talk about Football or Harry Potter, I’m your girl! 
-
-            Thank you for taking the time to visit my portfolio. Have a fantastic day!</p>
-        <button>Download Resume</button>
+      <div class="content pink">
+        <div class="column">
+          <img src= "images/alexis.jpg" alt= "alexis profile pic">
+          <h1>Alexis Russell</h1>
+        </div>
+        <div class="column">
+          <p> I'm a UX/UI Designer based in Houston, TX
+              As a current marketing and communications professional, 
+              I have 7 years of experience in branding and implementing design guidelines. 
+              I enjoy creating solutions that make a user’s life easier. 
+              If you want to talk about Football or Harry Potter, I’m your girl!  
+              Thank you for taking the time to visit my portfolio. Have a fantastic day!
+          </p>
+          <button class="blue">Download Resume</button>
+        </div>
       </div>
-    <section class="mySkills">
-        <h2> My Work </h2>
-        <div class="row">
-            <div class="column">
-              <div class="content">
-        <h1> Project Row Houses</h1>
-        <div class="flexContainer">
-        <img src= "images/projectrowhouses.png" alt= "Project Row Houses" width= "100%" heigh= "auto">
-        <p>A nonprofit organization’s platform was redesigned to engage 
-        the local community in art installations, volunteering and donating. </p>
-            
-            <button>View Case Study</button>
-        </div>
-        </div>
-        <div class="column">
-            <div class="content">
-        <h1> Labworks Mobile App</h1>
-        <div class="flexContainer">
-        <img src= "images/labwork-02.png" alt= "Labworks" width= "100%" heigh= "auto">
-        <p>This app was created for musicians and music industry creators to expand 
-            the reach of the modern music creator in their local scene. </p>
-            
-            <button>View Case Study</button>
-        </div>
-        </div>
-        <div class="column">
-            <div class="content">
-        <h1> U.S Department of the Interior Website</h1>
-        <div class="flexContainer">
-        <img src= "images/Laptop Doi-01.png" alt= "US Department of the Interior" width= "100%" heigh= "auto">
-        <p>This website redesign brings brand uniformity across all platforms that 
-            spoke to their outdoor and recreation mission. </p>
-            
-            
-            <button>View Case Study</button>
-        </div>
-        </div>
-
-        
     </section>
-
-
-    <footer>
+    <section class="mySkills">
+      <!-- <h2> My Work </h2> -->
+      <div class="content blue" id="project-row-houses">
+        <h1> Project Row Houses</h1>
+        <div class="column flexContainer">
+          <img src= "images/projectrowhouses.png" alt= "Project Row Houses" width= "100%" height= "auto">
+        </div>
+        <div class="column flexContainer">
+          <p>A nonprofit organization’s platform was redesigned to engage 
+            the local community in art installations, volunteering and donating.
+          </p>      
+          <button class="pink">View Case Study</button>
+        </div>
+      </div>
+      <div class="content pink" id="labworks">
+        <h1> Labwork Mobile App</h1>
+        <div class="column flexContainer">
+          <img src= "images/labwork-02.png" alt= "LABworks" width= "100%" height= "auto">
+        </div>
+        <div class="column flexContainer">
+          <p>This app was created for musicians and music industry creators to expand 
+            the reach of the modern music creator in their local scene.
+          </p>
+          <button class="green">View Case Study</button>
+        </div>
+      </div>     
+      <div class="content green" id="us-doi">
+        <h1> Labwork Mobile App</h1>
+        <div class="column flexContainer">
+          <img src= "images/Laptop Doi-01.png" alt= "U.S Department of the Interior" width= "100%" height= "auto">
+        </div>
+        <div class="column flexContainer">
+          <p>This website redesign brings brand uniformity across all platforms that 
+            spoke to their outdoor and recreation mission.
+          </p> 
+          <button class="blue">View Case Study</button>
+        </div>
+      </div>     
+    <footer class="pink">
       <ul>
-        <li>ABOUT</li>
-        <li>SKILLS</li>
-        <li>WORK</li>
-        <li>CONTACT</li>
+        <li>
+          <div class="footer-item-title">Call</div>
+          <div>504-491-5493</div>
+        </li>
+        <li>
+          <div class="footer-item-title">Write</div>
+          <div>alexis.russell17@gmail.com</div>
+        </li>
+        <li>
+          <div class="footer-item-title">Follow</div>
+          <div><img sr="#"><img sr="#"><img sr="#"></div>
+        </li>
       </ul>
     </footer>
   </body>
