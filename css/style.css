@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header {
+    background-color: #C6D9B9;
+    padding: 15px;
+  }
+  header ul {
+    float: right;
+    color: white;
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+  header p {
+    display: inline-block;
+    font-display: #ffffff;
+  }
+  .heroImg {
+    background-color: #DFAA99;
+    padding: 100px 15px;
+  }
+  .content {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #DFAA99;
+    text-align: center;
+  }
+  button {
+    padding: 10px;
+    background-color: #80BDD9;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px; 
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin: 8px -16px;
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 25%;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: #DFAA99;
+    padding: 10px;
+  }
+
+  footer {
+    background-color: #C6D9B9;
+    padding: 5px;
+    color: white;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
+ 
