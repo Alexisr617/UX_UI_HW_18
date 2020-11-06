@@ -6,30 +6,32 @@
   </head>
   <body>
     <header>
-      <img src="images/logo.png" alt="logo version" width= "10%">
+      <img src="images/logo.png" alt="logo version" width= "6%">
       <ul>
-        <li>ABOUT</li>
-        <li>SKILLS</li>
-        <li>WORK</li>
-        <li>CONTACT</li>
+        <a href="./about/"><li class="nav-item">About</li></a>
+        <a href="./works/"><li class="nav-item">Skills</li></a>
+        <a href="./resume/"><li class="nav-item">Works</li></a>
+        <a href="./connect/"><li class="nav-item">Connect</li></a>
       </ul>
     </header>
     <section class="heroImg">
-      <div class="content pink">
-        <div class="column">
+      
+       <div class="content">
+          <div class="column">
           <img src= "images/mes-01.png" alt= "alexis profile pic" width= 50%>
-          <h1>Alexis Russell</h1>
+          <h1 class="name"> Alexis Russell </h1>
         </div>
         <div class="column">
-          <h1 class="hello"> HELLO!</h1>
-          <p> I'm a UX/UI Designer based in Houston, TX
-              As a current marketing and communications professional,
-              I have 7 years of experience in branding and implementing design guidelines.
-              I enjoy creating solutions that make a user’s life easier.
-              If you want to talk about Football or Harry Potter, I’m your girl!
-              Thank you for taking the time to visit my portfolio. Have a fantastic day!
+          <h1 class="hello" class="fadeIn"> HELLO! </h1>
+          <p> I'm a UX/UI Designer based in Houston, TX <br>
+              As a current marketing and communications <br>professional,
+              I have 7 years of experience in branding and implementing design guidelines.<br>
+              I enjoy creating solutions that make a user’s <br> life easier.
+              If you want to talk about Football or Harry Potter, I’m your girl! <br>
+              <br>
+              Thank you for taking the time to visit my portfolio. Have a fantastic day!<br>
           </p>
-          <button class="blue">Download Resume</button>
+          <button class="green">Download Resume</button>
         </div>
       </div>
     </section>
@@ -41,10 +43,12 @@
           <img src= "images/projectrowhouses.png" alt= "Project Row Houses" width= "100%" height= "auto">
         </div>
         <div class="column flexContainer">
-          <p>A nonprofit organization’s platform was redesigned to engage
+          <p>
+            <br>
+            A nonprofit organization’s platform was redesigned to engage
             the local community in art installations, volunteering and donating.
           </p>
-          <button class="pink">View Case Study</button>
+          <button class="pink"><span>View Case Study</span> </button>
         </div>
       </div>
       <div class="content pink" id="labworks">
@@ -53,19 +57,25 @@
           <img src= "images/labwork-02.png" alt= "LABworks" width= "35%" height= "auto">
         </div>
         <div class="column flexContainer">
-          <p>This app was created for musicians and music industry creators to expand
+          <p>
+            <br>
+            <br>
+            <br>
+            This app was created for musicians and music industry creators to expand
             the reach of the modern music creator in their local scene.
           </p>
           <button class="green">View Case Study</button>
         </div>
       </div>
       <div class="content green" id="us-doi">
-        <h1> Labwork Mobile App</h1>
+        <h1> U.S. Department of the Interior</h1>
         <div class="column flexContainer">
           <img src= "images/Laptop Doi-01.png" alt= "U.S Department of the Interior" width= "100%" height= "auto">
         </div>
         <div class="column flexContainer">
-          <p>This website redesign brings brand uniformity across all platforms that
+          <p>
+            <br>
+            This website redesign brings brand uniformity across all platforms that
             spoke to their outdoor and recreation mission.
           </p>
           <button class="blue">View Case Study</button>
@@ -88,4 +98,7 @@
       </ul>
     </footer>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  </script>
+  <script src="js/index.js">
+  </script>
 </html>
